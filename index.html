@@ -30,7 +30,12 @@
     type="text/javascript"
     data-storefront="discountaccounting.test.onfastspring.com/popup-disCount">
 </script>
-
+<script
+    id="fsc-api"
+    src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.6/fastspring-builder.min.js"
+    type="text/javascript"
+    data-storefront="discountaccounting.onfastspring.com/popup-disCount">
+</script>
   </head>
 
   <body id="page-top">
@@ -66,9 +71,9 @@
               <span><font color="white">dis</font></span><strong><font color="#007acc">Count</font></strong>
             </h1>
             <hr>
-          </div>
           <div class="col-lg-8 mx-auto">
-            <a class="btn btn-light btn-xl js-scroll-trigger premium" href="#downloads">DOWNLOAD</a>
+		  <button data-fsc-item-path="discount" data-fsc-item-path-value="discount" data-fsc-action="Add, Checkout">
+            <span data-fsc-item-path="discount" class="btn btn-light btn-xl js-scroll-trigger premium" data-fsc-item-description-action>DOWNLOAD</span>
 
             </button>
           </div>
