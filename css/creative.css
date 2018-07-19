@@ -16,6 +16,28 @@ hr {
   border-width: 3px;
   border-color: transparent; }
 
+  
+ #laptopdiv {
+ }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 hr.light {
   border-color: #fff; }
 
@@ -39,6 +61,26 @@ h6 {
   width: 250px;
   margin-top: 40px;
 }
+
+.officialLogo {
+	width: 53%;
+    display: block;
+    padding-left: 59px;
+}
+
+.btndownloadhead {
+	background: transparent;
+	border:none;
+}
+
+.col-lg-10 {
+	margin-left: -5% !important;
+}
+
+.colHead {
+	margin-left: -3% !important;
+}
+	
 
 .premium {
   margin-top: 40px !important;
@@ -169,12 +211,13 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/mac.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: 100%;
+background-repeat: no-repeat;  }
   header.masthead hr {
     margin-top: 30px;
     margin-bottom: 150px; }
@@ -269,3 +312,132 @@ header.masthead {
     background-color: #ee4b28 !important; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+	
+	
+@media screen and (max-width: 990px) {
+	
+header {
+	height:460px !important;
+}
+
+header.masthead hr {
+    margin-top: -108px;
+    margin-bottom: 150px;
+}
+	
+	
+.officialLogo {
+	width: 53%;
+    display: block;
+    padding-left: 59px;
+}
+
+.col-lg-10 {
+	margin-left: -5% !important;
+}
+
+.colHead {
+	width: 434px !important;
+}	
+	
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+.row {
+	 margin-left: -75px;
+}
+
+.colHead {
+	width: 384px !important;
+}	
+}
+
+
+@media screen and (max-width: 603px) {
+	
+	header {
+	height:360px !important;
+}
+
+.btndownloadhead {
+	width: 43%;
+}
+
+.premium {
+	width: 134px;
+	height:20%;
+	font-size: 12px;
+}
+
+.row {
+	 margin-left: -35px;
+}
+
+.colHead {
+	width: 70% !important;
+	margin-top:-45px;
+}
+
+.mt-auto, .my-auto {
+    margin-top: -40px !important;
+}
+	
+}
+
+@media screen and (max-width: 423px) {
+
+.mt-auto, .my-auto {
+    margin-top: -60px !important;
+}
+
+header {
+	height:290px !important;
+}
+
+}
+
+
+@media screen and (max-width: 355px) {
+	
+header {
+	height:260px !important;
+}
+
+.officialLogo {
+    width: 177px;
+    padding-left: 34px;
+}
+
+.colHead {
+    margin-top: -62px !important;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
