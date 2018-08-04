@@ -322,6 +322,7 @@ h1, h2, h3, h4, h5, h6, figure {
       .video-hero .display-tc .holder span {
         position: relative; }
     .video-hero .display-tc h2 {
+		font-family: 'Open Sans';
       color: #fff;
       font-size: 32px;
       margin-bottom: 20px;
@@ -1522,12 +1523,40 @@ input[type="text"] {
   }
   
   
-  @media screen and (max-width: 991px) {
+ @media screen and (max-width: 991px) {
 	  
 	   .pricebox {
 	  width:100%;
 	  margin-bottom: 10px;
   }
+  
+   .colorlib-work-featured .mobile-wrap .mobile-img {
+	   width:50%;
+	   background-size: contain;
+	   margin: 0 auto;
+	   }
+	  
+	  
+  }
+  
+  
+   @media screen and (max-width: 770px) {
+	   
+	   .colorlib-work-featured .mobile-wrap .mobile-img {
+		   height: 480px;
+	   }
+	   
+   }
+  
+  
+  
+     @media screen and (max-width: 590px) {
+	   
+	   .colorlib-work-featured .mobile-wrap .mobile-img {
+		   width: 100%;
+	   }
+	   
+   }
 	  
 	  
   }
