@@ -22,6 +22,12 @@ body {
 	  margin:0 auto;
   }
   
+  .videodC {
+	  width:100%;
+	  height:500px;
+	  
+  }
+  
 #page {
   position: relative;
   overflow-x: hidden;
@@ -1535,6 +1541,12 @@ input[type="text"] {
 	   background-size: contain;
 	   margin: 0 auto;
 	   }
+	   
+	    .videodC {
+	  width:100%;
+	  height:400px;
+	  
+  }
 	  
 	  
   }
@@ -1546,6 +1558,12 @@ input[type="text"] {
 		   height: 480px;
 	   }
 	   
+	   .videodC {
+	  width:100%;
+	  height:300px;
+	  
+  }
+	   
    }
   
   
@@ -1556,6 +1574,11 @@ input[type="text"] {
 		   width: 100%;
 	   }
 	   
+	   .videodC {
+	  width:100%;
+	  height:250px;
+	  
+  }
    }
 	  
 	  
